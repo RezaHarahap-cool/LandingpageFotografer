@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reza fotografer</title>
+    <link rel="shortcut icon" href="asset/Screenshot 2026-01-27 220057.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Jersey+15&family=Playwrite+AU+SA:wght@100..400&family=Playwrite+VN:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+<div id="splash" class="fixed inset-0 bg-black flex flex-col items-center justify-center z-50 transition-opacity duration-500 z-[9999]">
+  <h1 class="text-white text-4xl font-bold animate-pulse">
+    Reza Studio
+    <i class="ri-camera-ai-line text-white"></i>
+  </h1>
+  <br>
+  
+</div>
+    <!-- Navbar start -->
+    <nav class="relative sticky bg-white z-50">
+        <div class="Navbar mx-auto max-w-7xl flex justify-between items-center py-4 px-6">
+            <div class="Logo text-gray-500 font-bold">
+                <h1 class="text-black">Reza <span class="text-gray-500">Fotografer</span></h1>
+            </div>
+            <div class="Menu">
+                <ul class="hidden md:flex flex space-x-6 text-gray-500 font-medium">
+                    <li class="hover:text-black hover:font-bold transition duration-300"><a href="#">Home</a></li>
+                    <li class="hover:text-black hover:font-bold transition duration-300"><a href="#">About</a></li>
+                    <li class="hover:text-black hover:font-bold transition duration-300"><a href="#">Service</a></li>
+                    <li class="hover:text-black hover:font-bold transition duration-300"><a href="#">Portfolio</a></li>
+                    <li class="hover:text-black hover:font-bold transition duration-300"><a href="#">Reviewer</a></li>
+                </ul>
+            </div>
+            <div class="Contact hidden md:flex">
+                <button class="bg-gray-600 text-white py-2 px-6 rounded-sm">Contact</button>
+            </div>
+            <button class="md:hidden w-10 h-10 flex items-center justify-center text-gray-700" id="menuBtn">
+                <i class="ri-menu-line ri-lg"></i>
+            </button>
+        </div>
+        <!-- bagian mobile menu -->
+        <div class="mobile-menu hidden absolute top-full left-0 w-full bg-white custom-shadow md:hidden"
+            id="mobileMenu">
+            <div class="container mx-auto px-4 py-3 flex flex-col space-y-4">
+                <a href="#beranda" class="py-2 hover:text-black hover:font-bold transition duration-300">Home</a>
+                <a href="#kegiatan" class="py-2 hover:text-black hover:font-bold transition duration-300">About</a>
+                <a href="#jadwal" class="py-2 hover:text-black hover:font-bold transition duration-300">Service</a>
+                <a href="#tentang" class="py-2 hover:text-black hover:font-bold transition duration-300">Portfolio</a>
+                <a href="#kontak" class="py-2 hover:text-black hover:font-bold transition duration-300">Reviewer</a>
+                <button class="bg-gray-600 text-white py-2 px-6 rounded-sm">Contact</button>
+            </div>
+
+        </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Hero Section start -->
+    <section>
+        <div class="Hero mx-auto max-w-7xl flex flex-col md:flex-row justify-between items-center px-6">
+            <div data-aos="fade-right">
+                <h1 class="text-4xl sm:text-6xl md:text-8xl text-black font-[family-name:var(--my-font)]">CAPTURING
+                    <br>
+                    BEAUTIFUL MOMENTS
+                </h1>
+                <p class="text-gray-500 mt-4">
+                    Camera Is An Optical Instrument That <br>
+                    Captures A Visual Image At Their Most Basic, <br>
+                    Cameras Are Sealed Boxes.</p>
+                <button class="mt-6 bg-gray-600 text-white py-2 px-6 rounded-sm mr-4">Get Started</button>
+                <button class="mt-6 border-2 border-gray-600 text-gray-600 py-2 px-6 rounded-sm">Contact</button>
+                <p class="text-gray-500 mt-4">Trusted by over <span class="text-black font-bold">5,000+</span> customers
+                </p>
+            </div>
+            <div data-aos="fade-left">
+                <img src="asset/Screenshot 2026-01-27 212441.png" alt="" srcset="">
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section end -->
+
+    <!-- About section start -->
+    <section>
+        <div class="About flex flex-col mx-auto max-w-7xl md:flex-row justify-between items-center px-6">
+            <div data-aos="fade-right">
+                <img src="asset/Screenshot 2026-01-27 220057.png" alt="" srcset="">
+            </div>
+            <div data-aos="fade-left">
+                <h1 class="text-4xl sm:text-6xl md:text-8xl text-black font-[family-name:var(--my-font)]">ABOUT ME</h1>
+                <p class="text-gray-500 mt-4">Alone All Happy Asked Begin Fully Stand Own Get
+                    Excuse Seeing Result Of We, See Scale Dried Alone
+                    All Happy Asked Begin,
+                </p>
+                <button class="bg-gray-600 text-white py-2 px-6 rounded-sm mt-6">Read More</button>
+            </div>
+        </div>
+    </section>
+    <!-- About section end -->
+
+    <!-- section service start -->
+    <section data-aos="fade-down"
+        class="Section-1 mt-20 mx-auto max-w-7xl flex flex-col md:flex-row justify-between items-center px-6 gap-6">
+        <div>
+            <h1 class="text-4xl sm:text-6xl md:text-8xl text-black font-[family-name:var(--my-font)]">
+                WE PROVIDE
+            </h1>
+        </div>
+        <div>
+            <p class="text-gray-500 mt-4 text-2xl sm:text-2xl">
+                Dokumentasi profesional untuk acara spesial Anda seperti pernikahan, ulang tahun, dan acara corporate
+                dengan hasil yang memukau,
+                layanan editing foto dan video berkualitas tinggi untuk mengabadikan momen berharga Anda dengan sentuhan
+                kreatif,
+            </p>
+        </div>
+    </section>
+
+    <section class="Section-2 mx-auto max-w-7xl px-6 my-12">
+        <div class="grid gap-8 sm:grid-cols-2 md:grid-cols-4">
+            <div>
+                <img class="w-full md:w-[300px] md:h-[200px] flex items-center" src="asset/gambar1.png" alt=""
+                    srcset="">
+                <h1 class="font-bold text-2xl mb-3">Wedding Documentation</h1>
+                <p>We offer professional wedding documentation services that capture every emotion and sacred moment
+                    with cinematic and stunning results..</p>
+            </div>
+            <div>
+                <img class="w-full md:w-[300px] md:h-[200px] flex items-center" src="asset/gambar2.png" alt=""
+                    srcset="">
+                <h1 class="font-bold text-2xl mb-3">Birthday & Private Events</h1>
+                <p>Capture the joy of your birthday parties and personal events. We ensure every laugh and moment of
+                    togetherness is perfectly captured as a sweet memory..</p>
+            </div>
+            <div>
+                <img class="w-full md:w-[300px] md:h-[200px] flex items-center" src="asset/gambar3.png" alt=""
+                    srcset="">
+                <h1 class="font-bold text-2xl mb-3">Corporate Events</h1>
+                <p>Enhance your company's professional image. We provide high-quality documentation for seminars,
+                    product launches, and office gatherings..</p>
+            </div>
+            <div>
+                <img class="w-full md:w-[300px] md:h-[200px] flex items-center" src="asset/gambar4.png" alt=""
+                    srcset="">
+                <h1 class="font-bold text-2xl mb-3">Creative Editing</h1>
+                <p>Premium post-production (editing) services to transform raw footage into artistic, sharp, and
+                    storytelling visual masterpieces.</p>
+            </div>
+        </div>
+    </section>
+    <!-- section service end -->
+
+
+    <!-- Portfolio Section start -->
+    <section data-aos="fade-down"
+        class="mt-20 mx-auto max-w-7xl flex flex-col md:flex-row justify-between items-center px-6 gap-6">
+        <div>
+            <h1 class="text-4xl sm:text-6xl md:text-8xl text-black font-[family-name:var(--my-font)]">
+                OUR PORTFOLIO
+            </h1>
+            <p class="text-gray-500 mt-4">Trusted by over <span class="text-black font-bold">5,000+</span> customers</p>
+        </div>
+        <div>
+            <p class="text-gray-500 mt-4 text-2xl sm:text-2xl">
+                From intimate weddings to grand corporate events, our portfolio reflects our commitment to excellence
+                and creativity in every shot we take.
+            </p>
+        </div>
+    </section>
+    <!-- Portfolio Section end -->
+
+    <!-- Portfolio Gallery start -->
+<!-- Portfolio Gallery start -->
+<!-- Portfolio Gallery start -->
+<section class="max-w-7xl mx-auto mt-7">
+  <div
+    class="
+      grid gap-4 p-4
+      grid-cols-1
+      sm:grid-cols-2
+      lg:grid-cols-4
+      lg:h-[650px]
+    "
+  >
+
+    <!-- Big Card -->
+    <div
+      class="
+        relative overflow-hidden rounded-2xl
+        sm:col-span-2
+        lg:col-span-2 lg:row-span-2
+      "
+    >
+      <img
+        src="asset/alex-kalligas--nIpaV-VC1U-unsplash.jpg"
+        class="w-full h-full object-cover"
+        alt=""
+      />
+      <div class="absolute inset-0 bg-black/30 p-5">
+      </div>
+    </div>
+
+    <!-- Card 1 -->
+    <div class="relative overflow-hidden rounded-2xl">
+      <img
+        src="asset/kim-becker-EoCwQ5PerAs-unsplash.jpg"
+        class="w-full h-full object-cover"
+        alt=""
+      />
+      <div class="absolute inset-0 bg-black/30 p-4">
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="relative overflow-hidden rounded-2xl">
+      <img
+        src="asset/miss-zhang-jz0xIgcwyL0-unsplash.jpg"
+        class="w-full h-full object-cover"
+        alt=""
+      />
+      <div class="absolute inset-0 bg-black/30 p-4">
+      </div>
+    </div>
+
+    <!-- Wide Card -->
+    <div
+      class="
+        relative overflow-hidden rounded-2xl
+        sm:col-span-2
+        lg:col-span-2
+      "
+    >
+      <img
+        src="asset/ailbhe-flynn-jkZs3Oi9pq0-unsplash.jpg"
+        class="w-full h-full object-cover"
+        alt=""
+      />
+      <div class="absolute inset-0 bg-black/30 p-5">
+      </div>
+    </div>
+    
+  </div>
+  <div>
+  </div>
+</section>
+<!-- Portfolio Gallery end -->
+<!-- tombol pendukung -->
+<section>
+    <div class="flex justify-center my-8">
+        <button class="bg-gray-600 text-white py-2 px-6 rounded-sm">Load More</button>
+    </div>
+</section>
+<!-- tombol pendukung end -->
+
+<!-- Testimonial start -->
+    <section data-aos="fade-down"
+        class="mt-20 mx-auto max-w-7xl flex flex-col md:flex-row justify-between items-center px-6 gap-6">
+        <div>
+            <h1 class="text-4xl sm:text-6xl md:text-8xl text-black font-[family-name:var(--my-font)]">
+               CUSTOMERS SAY
+            </h1>
+        </div>
+        <div>
+            <p class="text-gray-500 mt-4 text-2xl sm:text-2xl">
+                "Reza Fotografer transformed our wedding day into timeless memories with their exceptional photography
+                skills and professionalism. Highly recommended!"
+            </p>
+        </div>
+    </section>
+
+<section class="max-w-7xl mx-auto my-16 overflow-hidden" data-aos="fade-up">
+
+  <!-- VIEWPORT -->
+  <div class="overflow-hidden">
+    <!-- TRACK -->
+    <div id="marquee" class="flex gap-6 w-max">
+
+      <!-- SET 1 -->
+      <div class="testimonial-card border-2 border-gray-300 p-4 rounded-lg bg-white shadow-lg h-[250px] w-[250px]">
+        <p class="quote">"</p>
+        <p>
+          Pernikahan saya adalah momen tak terlupakan berkat Reza Fotografer.
+          Setiap emosi tertangkap dengan sempurna.
+        </p>
+        <div class="mt-4 flex items-center gap-4">
+          <img src="asset/p1.jpg" class="w-10 h-10 rounded-full border-2 border-gray-600" />
+          <div>
+            <h4 class="font-bold">Siti Aminah</h4>
+            <span class="text-sm text-gray-500">Client</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card border-2 border-gray-300 p-4 rounded-lg bg-white shadow-lg h-[250px] w-[250px]">
+        <p class="quote">"</p>
+        <p>
+          Profesional, kreatif, dan hasil fotonya benar-benar bercerita.
+          Sangat direkomendasikan.
+        </p>
+        <div class="mt-4 flex items-center gap-4">
+          <img src="asset/p2.jpg" class="w-10 h-10 rounded-full border-2 border-gray-600" />
+          <div>
+            <h4 class="font-bold">Dewi Lestari</h4>
+            <span class="text-sm text-gray-500">Client</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card border-2 border-gray-300 p-4 rounded-lg bg-white shadow-lg h-[250px] w-[250px]">
+        <p class="quote">"</p>
+        <p>
+          Tim yang ramah dan hasil yang luar biasa.
+          Dokumentasi terbaik yang pernah saya miliki.
+        </p>
+        <div class="mt-4 flex items-center gap-4">
+          <img src="asset/p3.jpg" class="w-10 h-10 rounded-full border-2 border-gray-600" />
+          <div>
+            <h4 class="font-bold">Ahmad Fauzi</h4>
+            <span class="text-sm text-gray-500">Client</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- SET 2 (DUPLIKASI WAJIB) -->
+      <div class="testimonial-card border-2 border-gray-300 p-4 rounded-lg bg-white shadow-lg h-[250px] w-[250px]">
+        <p class="quote">"</p>
+        <p>
+          Pernikahan saya adalah momen tak terlupakan berkat Reza Fotografer.
+          Setiap emosi tertangkap dengan sempurna.
+        </p>
+        <div class="mt-4 flex items-center gap-4">
+          <img src="asset/p4.jpg" class="w-10 h-10 rounded-full border-2 border-gray-600" />
+          <div>
+            <h4 class="font-bold">Siti Aminah</h4>
+            <span class="text-sm text-gray-500">Client</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card border-2 border-gray-300 p-4 rounded-lg bg-white shadow-lg h-[250px] w-[250px]">
+        <p class="quote">"</p>
+        <p>
+          Profesional, kreatif, dan hasil fotonya benar-benar bercerita.
+          Sangat direkomendasikan.
+        </p>
+        <div class="mt-4 flex items-center gap-4">
+          <img src="asset/p5.jpg" class="w-10 h-10 rounded-full border-2 border-gray-600" />
+          <div>
+            <h4 class="font-bold">Dewi Lestari</h4>
+            <span class="text-sm text-gray-500">Client</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card border-2 border-gray-300 p-4 rounded-lg bg-white shadow-lg h-[250px] w-[250px]">
+        <p class="quote">"</p>
+        <p>
+          Tim yang ramah dan hasil yang luar biasa.
+          Dokumentasi terbaik yang pernah saya miliki.
+        </p>
+        <div class="mt-4 flex items-center gap-4">
+          <img src="asset/p1.jpg" class="w-10 h-10 rounded-full border-2 border-gray-600" />
+          <div>
+            <h4 class="font-bold">Ahmad Fauzi</h4>
+            <span class="text-sm text-gray-500">Client</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- Testimonial end -->
+
+<!-- section contact start -->
+<section class="p-5 max-w-7xl mx-auto my-16 flex justify-center items-center" data-aos="fade-up">
+    <div class="">
+        <h1 class="text-4xl sm:text-6xl md:text-8xl text-black font-[family-name:var(--my-font)] text-center">
+            CONTACT ME
+        </h1>
+        <p class="text-gray-500 mt-4 text-2xl sm:text-2xl text-center">
+            Ready to capture your special moments? <br>
+            Contact me today to discuss your photography needs and book a
+            session.
+        </p>
+        <form action="" class="flex flex-col items-center">
+        <input type="text" placeholder="Your Email"
+            class="border-2 border-gray-300 p-3 rounded-lg w-full md:w-1/2 mt-6 focus:outline-none focus:border-gray-600">
+        <br>
+        <textarea name="" id="" class="border-2 border-gray-300 p-3 rounded-lg w-full md:w-1/2 focus:outline-none focus:border-gray-600">Your Message
+        </textarea>
+        <br>
+        <button class="bg-gray-600 text-white py-2 px-6 rounded-sm mt-4 w-full md:w-1/2">Send Message</button>
+        </form>
+    </div>
+</section>
+<!-- section contact end -->
+
+
+<!-- Footer start -->
+<footer class="bg-gray-900">
+    <div class="text-gray-200 flex flex-col md:flex-row justify-between px-6 py-12 max-w-7xl mx-auto gap-8">
+        <div>
+            <h1 class="text-2xl font-bold">Reza Fotografer</h1>
+            <p class="">
+                immortalize your precious moments <br>
+                with your loved ones with us
+            </p>
+        </div>
+        <div>
+            <h1 class="text-2xl font-bold">About Us</h1>
+            <ul class="">
+                <li><a href="">Our Story</a></li>
+                <li><a href="">Out Teams</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+        <div>
+            <h1 class="text-2xl font-bold ">Services</h1>
+            <ul class="">
+                <li><a href="">Wedding Documentation</a></li>
+                <li><a href="">Birthday & Private Events</a></li>
+                <li><a href="">Corporate Events</a></li>
+                <li><a href="">Creative Editing</a></li>
+            </ul>
+        </div>
+        <div>
+            <h1 class="text-2xl font-bold ">Contact</h1>
+            <ul class="">
+                <li><a href="">Email</a></li>
+                <li><a href="">Phone</a></li>
+                <li><a href="">Address</a></li>
+            </ul>
+        </div>
+        <div>
+            <h1 class="text-2xl font-bold ">Get In Touch</h1>
+            <p>Let's connect with us on our social media</p>
+            <div>
+                <i class="ri-facebook-fill ri-lg"></i>
+                <i class="ri-instagram-fill ri-lg"></i>
+                <i class="ri-twitter-fill ri-lg"></i>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer end -->
+
+
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
